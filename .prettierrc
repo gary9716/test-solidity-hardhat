@@ -1,0 +1,23 @@
+{
+  "overrides": [
+    {
+      "files": ["*.js", "*.ts"],
+      "options": {
+        "useTabs": false,
+        "singleQuote": true,
+        "bracketSpacing": true,
+        "trailingComma": "all",
+        "tabWidth": 2,
+        "importOrderSeparation": true,
+        "importOrderSortSpecifiers": true
+      }
+    },
+    {
+      "files": ["*.yaml", "*.yml"],
+      "options": {
+        "tabWidth": 2,
+        "singleQuote": false
+      }
+    }
+  ]
+}
